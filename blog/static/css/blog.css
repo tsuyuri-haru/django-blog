@@ -1,0 +1,33 @@
+﻿
+@charset "utf-8";
+
+
+p.text_right {
+
+    text-align: right;
+    bottom: 0px;
+}
+
+.sampleBox {
+    border:1px solid #cccccc;
+    height: 200px;
+    position: relative;
+    
+}
+
+.back {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid #888888;
+    padding: 25pt;
+    background-color: #ffffff;
+    filter: alpha(opacity=85);
+   
+    opacity: 0.85;
+    text-shadow: 0 -1px 1px #FFF, -1px 0 1px #FFF, 1px 0 1px #aaa;
+    -webkit-box-shadow: 1px 1px 2px #E7E7E7;
+    -moz-box-shadow: 1px 1px 2px #E7E7E7;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
